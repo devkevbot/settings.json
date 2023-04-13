@@ -1,5 +1,5 @@
 {
-  "[astro][html][css][javascript][javascriptreact][typescript][typescriptreact][vue]": {
+  "[astro][html][css][javascriptreact][typescriptreact][vue]": {
     "editor.codeActionsOnSave": [
       "source.formatDocument",
       "source.fixAll.eslint"
@@ -7,6 +7,11 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true,
     "editor.tabSize": 2
+  },
+  "[javascript][typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.tabSize": 4
   },
   "[json][jsonc]": {
     "editor.defaultFormatter": "vscode.json-language-features",
