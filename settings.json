@@ -1,5 +1,5 @@
 {
-  "[astro][html][css][javascriptreact][typescriptreact][vue]": {
+  "[astro][html][javascriptreact][typescriptreact][css][postcss]": {
     "editor.codeActionsOnSave": [
       "source.formatDocument",
       "source.fixAll.eslint"
@@ -28,15 +28,15 @@
     "editor.formatOnSave": true,
     "editor.tabSize": 2
   },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python",
+    "editor.formatOnSave": true,
+    "editor.tabSize": 4
+  },
   "[rust]": {
     "editor.defaultFormatter": "rust-lang.rust-analyzer",
     "editor.formatOnSave": true,
     "editor.tabSize": 4
-  },
-  "[yaml]": {
-    "editor.defaultFormatter": "redhat.vscode-yaml",
-    "editor.formatOnSave": true,
-    "editor.tabSize": 2
   },
   "breadcrumbs.enabled": false,
   "editor.bracketPairColorization.enabled": true,
@@ -49,6 +49,9 @@
   "editor.semanticHighlighting.enabled": true,
   "editor.smoothScrolling": false,
   "editor.stickyScroll.enabled": true,
+  "errorLens.excludeBySource": [
+    "eslint(@typescript-eslint/no-unsafe-assignment)"
+  ],
   "eslint.validate": [
     "javascript",
     "javascriptreact",
@@ -59,6 +62,9 @@
     "svelte",
     "vue"
   ],
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
   "files.exclude": {
     "**/.DS_Store": false,
     "**/.git": false,
@@ -75,9 +81,13 @@
   "grammarly.files.include": [
     "**/*.md",
   ],
+  "liveServer.settings.CustomBrowser": "firefox",
+  "liveServer.settings.fullReload": true,
+  "liveServer.settings.wait": 1000,
   "prettier.documentSelectors": [
     "**/*.astro"
   ],
+  "python.formatting.provider": "black",
   "rewrap.wrappingColumn": 80,
   "rust-analyzer.check.command": "clippy",
   "telemetry.telemetryLevel": "off",
@@ -97,5 +107,5 @@
   "workbench.sideBar.location": "right",
   "workbench.startupEditor": "none",
   "workbench.statusBar.visible": true,
-  "workbench.tips.enabled": false,
+  "workbench.tips.enabled": false
 }
