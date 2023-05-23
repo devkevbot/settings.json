@@ -13,6 +13,11 @@
     "editor.formatOnSave": true,
     "editor.tabSize": 4
   },
+  "[csharp]": {
+    "editor.maxTokenizationLineLength": 2500,
+    "editor.formatOnSave": true,
+    "editor.tabSize": 4
+  },
   "[json][jsonc]": {
     "editor.defaultFormatter": "vscode.json-language-features",
     "editor.formatOnSave": true,
@@ -62,9 +67,9 @@
     "svelte",
     "vue"
   ],
-  "files.associations": {
-    "*.css": "tailwindcss"
-  },
+  // "files.associations": {
+  //   "*.css": "tailwindcss"
+  // },
   "files.exclude": {
     "**/.DS_Store": false,
     "**/.git": false,
@@ -80,6 +85,7 @@
   "gitlens.keymap": "alternate",
   "grammarly.files.include": [
     "**/*.md",
+    "**/*.mdx",
   ],
   "liveServer.settings.CustomBrowser": "firefox",
   "liveServer.settings.fullReload": true,
@@ -107,5 +113,6 @@
   "workbench.sideBar.location": "right",
   "workbench.startupEditor": "none",
   "workbench.statusBar.visible": true,
-  "workbench.tips.enabled": false
+  "workbench.tips.enabled": false,
+  "rubyLsp.rubyVersionManager": "none",
 }
