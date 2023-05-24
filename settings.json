@@ -23,11 +23,6 @@
     "editor.formatOnSave": true,
     "editor.tabSize": 2
   },
-  "[lua]": {
-    "editor.defaultFormatter": "sumneko.lua",
-    "editor.formatOnSave": true,
-    "editor.tabSize": 4
-  },
   "[prisma]": {
     "editor.defaultFormatter": "Prisma.prisma",
     "editor.formatOnSave": true,
@@ -67,9 +62,6 @@
     "svelte",
     "vue"
   ],
-  // "files.associations": {
-  //   "*.css": "tailwindcss"
-  // },
   "files.exclude": {
     "**/.DS_Store": false,
     "**/.git": false,
@@ -83,18 +75,10 @@
   "gitlens.hovers.avatars": false,
   "gitlens.hovers.currentLine.over": "line",
   "gitlens.keymap": "alternate",
-  "grammarly.files.include": [
-    "**/*.md",
-    "**/*.mdx",
-  ],
-  "liveServer.settings.CustomBrowser": "firefox",
-  "liveServer.settings.fullReload": true,
-  "liveServer.settings.wait": 1000,
   "prettier.documentSelectors": [
     "**/*.astro"
   ],
   "python.formatting.provider": "black",
-  "rewrap.wrappingColumn": 80,
   "rust-analyzer.check.command": "clippy",
   "telemetry.telemetryLevel": "off",
   "terminal.integrated.defaultProfile.windows": "Git Bash",
@@ -114,5 +98,4 @@
   "workbench.startupEditor": "none",
   "workbench.statusBar.visible": true,
   "workbench.tips.enabled": false,
-  "rubyLsp.rubyVersionManager": "none",
 }
