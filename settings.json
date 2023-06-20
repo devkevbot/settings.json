@@ -1,46 +1,37 @@
 {
-  "[astro][html][javascriptreact][typescriptreact][css][postcss]": {
+  // "[go]": {
+  //   "editor.defaultFormatter": "golang.go",
+  //   "editor.formatOnSave": false
+  // },
+  "[html][javascript][typescript][javascriptreact][typescriptreact][css][postcss][vue]": {
     "editor.codeActionsOnSave": [
-      "source.formatDocument",
       "source.fixAll.eslint"
     ],
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true,
     "editor.tabSize": 2
   },
-  "[javascript][typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true,
-    "editor.tabSize": 4
-  },
-  "[csharp]": {
-    "editor.maxTokenizationLineLength": 2500,
-    "editor.formatOnSave": true,
-    "editor.tabSize": 4
-  },
   "[json][jsonc]": {
     "editor.defaultFormatter": "vscode.json-language-features",
     "editor.formatOnSave": true,
     "editor.tabSize": 2
   },
-  "[prisma]": {
-    "editor.defaultFormatter": "Prisma.prisma",
-    "editor.formatOnSave": true,
-    "editor.tabSize": 2
-  },
+  // "[prisma]": {
+  //   "editor.defaultFormatter": "Prisma.prisma",
+  //   "editor.formatOnSave": true
+  // },
   "[python]": {
     "editor.defaultFormatter": "ms-python.python",
+    "editor.formatOnSave": true
+  },
+  // "[rust]": {
+  //   "editor.defaultFormatter": "rust-lang.rust-analyzer",
+  //   "editor.formatOnSave": true
+  // },
+  "[solidity]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true,
     "editor.tabSize": 4
-  },
-  "[rust]": {
-    "editor.defaultFormatter": "rust-lang.rust-analyzer",
-    "editor.formatOnSave": true,
-    "editor.tabSize": 4
-  },
-  "[ocaml][odin][c]": {
-    "editor.formatOnSave": true,
-    "editor.tabSize": 4,
   },
   "breadcrumbs.enabled": false,
   "editor.bracketPairColorization.enabled": true,
@@ -53,18 +44,19 @@
   "editor.semanticHighlighting.enabled": true,
   "editor.smoothScrolling": false,
   "editor.stickyScroll.enabled": true,
-  "errorLens.excludeBySource": [
-    "eslint(@typescript-eslint/no-unsafe-assignment)"
+  "editor.tabSize": 4,
+  "eslint.rules.customizations": [
+    {
+      "rule": "*",
+      "severity": "warn"
+    }
   ],
   "eslint.validate": [
     "javascript",
     "javascriptreact",
     "typescript",
     "typescriptreact",
-    "html",
-    "astro",
-    "svelte",
-    "vue"
+    "html"
   ],
   "files.exclude": {
     "**/.DS_Store": false,
@@ -79,16 +71,25 @@
   "gitlens.hovers.avatars": false,
   "gitlens.hovers.currentLine.over": "line",
   "gitlens.keymap": "alternate",
+  "grammarly.files.include": [
+    "**/readme.md",
+    "**/README.md",
+    "**/*.txt",
+    "**/*.mdx"
+  ],
   "prettier.documentSelectors": [
-    "**/*.astro"
+    "**/*.sol"
   ],
   "python.formatting.provider": "black",
+  "rewrap.autoWrap.enabled": false,
+  "rewrap.wrappingColumn": 100,
   "rust-analyzer.check.command": "clippy",
   "telemetry.telemetryLevel": "off",
   "terminal.integrated.defaultProfile.windows": "Git Bash",
   "terminal.integrated.fontFamily": "'JetBrains Mono','Courier New', monospace",
   "terminal.integrated.fontSize": 14,
   "terminal.integrated.shellIntegration.enabled": true,
+  "typescript.tsdk": "node_modules/typescript/lib",
   "window.title": "${dirty}${activeEditorShort}${separator}${rootPath}${separator}",
   "workbench.activityBar.visible": true,
   "workbench.colorCustomizations": {
