@@ -1,8 +1,14 @@
 {
-  // "[go]": {
-  //   "editor.defaultFormatter": "golang.go",
-  //   "editor.formatOnSave": false
-  // },
+  "[elixir]": {
+    "editor.formatOnSave": true,
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.trimAutoWhitespace": false,
+    "editor.wordBasedSuggestions": false,
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true
+  },
   "[html][javascript][typescript][javascriptreact][typescriptreact][css][postcss][vue]": {
     "editor.codeActionsOnSave": [
       "source.fixAll.eslint"
@@ -16,18 +22,14 @@
     "editor.formatOnSave": true,
     "editor.tabSize": 2
   },
-  // "[prisma]": {
-  //   "editor.defaultFormatter": "Prisma.prisma",
-  //   "editor.formatOnSave": true
-  // },
   "[python]": {
     "editor.defaultFormatter": "ms-python.python",
     "editor.formatOnSave": true
   },
-  // "[rust]": {
-  //   "editor.defaultFormatter": "rust-lang.rust-analyzer",
-  //   "editor.formatOnSave": true
-  // },
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust-analyzer",
+    "editor.formatOnSave": true
+  },
   "[solidity]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true,
@@ -102,5 +104,5 @@
   "workbench.sideBar.location": "right",
   "workbench.startupEditor": "none",
   "workbench.statusBar.visible": true,
-  "workbench.tips.enabled": false,
+  "workbench.tips.enabled": false
 }
