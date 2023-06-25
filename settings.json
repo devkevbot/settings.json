@@ -1,14 +1,4 @@
 {
-  "[elixir]": {
-    "editor.formatOnSave": true,
-    "editor.insertSpaces": true,
-    "editor.tabSize": 2,
-    "editor.trimAutoWhitespace": false,
-    "editor.wordBasedSuggestions": false,
-    "files.insertFinalNewline": true,
-    "files.trimFinalNewlines": true,
-    "files.trimTrailingWhitespace": true
-  },
   "[html][javascript][typescript][javascriptreact][typescriptreact][css][postcss][vue]": {
     "editor.codeActionsOnSave": [
       "source.fixAll.eslint"
@@ -98,11 +88,14 @@
     "editorLineNumber.activeForeground": "#FFF",
     "editorLineNumber.foreground": "#777"
   },
-  "workbench.colorTheme": "Rosé Pine Moon (no italics)",
+  "workbench.colorTheme": "Rosé Pine (no italics)",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.layoutControl.enabled": true,
   "workbench.sideBar.location": "right",
   "workbench.startupEditor": "none",
   "workbench.statusBar.visible": true,
-  "workbench.tips.enabled": false
+  "workbench.tips.enabled": false,
+  "grammarly.config.documentDialect": "canadian",
+  "grammarly.config.suggestions.PassiveVoice": true,
+  "grammarly.config.suggestions.OxfordComma": true
 }
