@@ -1,4 +1,14 @@
 {
+  "[elixir]": {
+    "editor.formatOnSave": true,
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.trimAutoWhitespace": false,
+    "editor.wordBasedSuggestions": false,
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true
+  },
   "[html][javascript][typescript][javascriptreact][typescriptreact][css][postcss][vue]": {
     "editor.codeActionsOnSave": [
       "source.fixAll.eslint"
@@ -11,6 +21,15 @@
     "editor.defaultFormatter": "vscode.json-language-features",
     "editor.formatOnSave": true,
     "editor.tabSize": 2
+  },
+  "[lua]": {
+    "editor.formatOnSave": true,
+    "editor.tabSize": 4
+  },
+  "[ocaml]": {
+    "editor.formatOnSave": true,
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4
   },
   "[python]": {
     "editor.defaultFormatter": "ms-python.python",
@@ -63,12 +82,16 @@
   "gitlens.hovers.avatars": false,
   "gitlens.hovers.currentLine.over": "line",
   "gitlens.keymap": "alternate",
+  "grammarly.config.documentDialect": "canadian",
+  "grammarly.config.suggestions.OxfordComma": true,
+  "grammarly.config.suggestions.PassiveVoice": true,
   "grammarly.files.include": [
     "**/readme.md",
     "**/README.md",
     "**/*.txt",
     "**/*.mdx"
   ],
+  "ocaml.useOcamlEnv": false,
   "prettier.documentSelectors": [
     "**/*.sol"
   ],
@@ -94,8 +117,5 @@
   "workbench.sideBar.location": "right",
   "workbench.startupEditor": "none",
   "workbench.statusBar.visible": true,
-  "workbench.tips.enabled": false,
-  "grammarly.config.documentDialect": "canadian",
-  "grammarly.config.suggestions.PassiveVoice": true,
-  "grammarly.config.suggestions.OxfordComma": true
+  "workbench.tips.enabled": false
 }
