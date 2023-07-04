@@ -1,4 +1,16 @@
 {
+  "[zig]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "ziglang.vscode-zig",
+    "files.eol": "\n",
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true
+  },
+  "[shellscript]": {
+    "files.eol": "\n",
+    "editor.formatOnSave": true,
+    "editor.tabSize": 4
+  },
   "[elixir]": {
     "editor.formatOnSave": true,
     "editor.insertSpaces": true,
@@ -109,5 +121,7 @@
   "workbench.sideBar.location": "right",
   "workbench.startupEditor": "none",
   "workbench.statusBar.visible": true,
-  "workbench.tips.enabled": false
+  "workbench.tips.enabled": false,
+  "zig.zigPath": "C:\\Program Files\\zig-windows-x86_64-0.11.0\\zig.EXE",
+  "zig.zls.path": "c:\\Users\\Kevin\\AppData\\Roaming\\Code\\User\\globalStorage\\ziglang.vscode-zig\\zls_install\\zls.exe"
 }
