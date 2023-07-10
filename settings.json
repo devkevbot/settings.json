@@ -44,15 +44,10 @@
     "editor.tabSize": 4,
     "files.eol": "\n"
   },
-  "[zig]": {
-    "editor.defaultFormatter": "ziglang.vscode-zig",
-    "editor.formatOnSave": true,
-    "editor.insertSpaces": true,
-    "editor.tabSize": 4,
-    "files.eol": "\n"
-  },
   "breadcrumbs.enabled": false,
   "editor.bracketPairColorization.enabled": true,
+  "editor.cursorStyle": "line",
+  "editor.cursorWidth": 2,
   "editor.detectIndentation": false,
   "editor.fontFamily": "'JetBrains Mono','Courier New', monospace",
   "editor.fontLigatures": false,
@@ -100,8 +95,8 @@
   ],
   "ocaml.useOcamlEnv": false,
   "python.analysis.autoFormatStrings": true,
-  "python.formatting.provider": "black",
   "python.analysis.typeCheckingMode": "off",
+  "python.formatting.provider": "black",
   "rewrap.autoWrap.enabled": false,
   "rewrap.wrappingColumn": 100,
   "rust-analyzer.check.command": "clippy",
@@ -115,7 +110,7 @@
   "workbench.activityBar.visible": true,
   "workbench.colorCustomizations": {
     "editorLineNumber.activeForeground": "#FFF",
-    "editorLineNumber.foreground": "#777"
+    "editorLineNumber.foreground": "#888"
   },
   "workbench.colorTheme": "Rosé Pine (no italics)",
   "workbench.iconTheme": "material-icon-theme",
