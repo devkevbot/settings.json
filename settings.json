@@ -39,6 +39,7 @@
   "editor.tabSize": 4,
   "editor.tokenColorCustomizations": {
     "[Tokyo Night]": { // or "[Tokyo Night Storm]"
+      "comments": "#AAA",
       "textMateRules": [
         {
           "scope": [
