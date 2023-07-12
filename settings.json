@@ -1,15 +1,5 @@
 {
-  "[elixir]": {
-    "editor.formatOnSave": true,
-    "editor.insertSpaces": true,
-    "editor.tabSize": 2,
-    "editor.trimAutoWhitespace": false,
-    "editor.wordBasedSuggestions": false,
-    "files.insertFinalNewline": true,
-    "files.trimFinalNewlines": true,
-    "files.trimTrailingWhitespace": true
-  },
-  "[html][javascript][typescript][javascriptreact][typescriptreact][css][postcss][vue]": {
+  "[html][javascript][typescript][javascriptreact][typescriptreact][css][postcss]": {
     "editor.codeActionsOnSave": [
       "source.fixAll.eslint"
     ],
@@ -22,15 +12,6 @@
     "editor.formatOnSave": true,
     "editor.tabSize": 2
   },
-  "[lua]": {
-    "editor.formatOnSave": true,
-    "editor.tabSize": 4
-  },
-  "[ocaml]": {
-    "editor.formatOnSave": true,
-    "editor.insertSpaces": true,
-    "editor.tabSize": 4
-  },
   "[python]": {
     "editor.defaultFormatter": "ms-python.python",
     "editor.formatOnSave": true
@@ -41,13 +22,10 @@
   },
   "[shellscript]": {
     "editor.formatOnSave": true,
-    "editor.tabSize": 4,
     "files.eol": "\n"
   },
   "breadcrumbs.enabled": false,
   "editor.bracketPairColorization.enabled": true,
-  "editor.cursorStyle": "line",
-  "editor.cursorWidth": 2,
   "editor.detectIndentation": false,
   "editor.fontFamily": "'JetBrains Mono','Courier New', monospace",
   "editor.fontLigatures": false,
@@ -88,12 +66,10 @@
   "grammarly.config.suggestions.OxfordComma": true,
   "grammarly.config.suggestions.PassiveVoice": true,
   "grammarly.files.include": [
-    "**/readme.md",
-    "**/README.md",
+    "**/*.md",
     "**/*.txt",
     "**/*.mdx"
   ],
-  "ocaml.useOcamlEnv": false,
   "python.analysis.autoFormatStrings": true,
   "python.analysis.typeCheckingMode": "off",
   "python.formatting.provider": "black",
